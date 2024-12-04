@@ -1,23 +1,23 @@
 package com.example.kiemtrajsp;
 
 public class MovieTickets {
-    private String id;
+    private int id;
     private String name;
     private int showtime;
     private int price;
 
-    public MovieTickets(String id, String name, int showtime, int price) {
+    public MovieTickets(int id, String name, int showtime, int price) {
         this.id = id;
         this.name = name;
         this.showtime = showtime;
         this.price = price;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -48,7 +48,7 @@ public class MovieTickets {
     @Override
     public String toString() {
         return "MovieTickets{" +
-                "id='" + id + '\'' +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", showtime=" + showtime +
                 ", price=" + price +
