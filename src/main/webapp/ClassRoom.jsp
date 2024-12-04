@@ -42,6 +42,7 @@
             <td style="padding-left: 50px">${classList.status}</td>
         </tr>
     </c:forEach>
+
     </tbody>
 </table>>
 </body>
