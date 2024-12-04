@@ -29,6 +29,7 @@
     <tbody>
     <c:forEach var="pollList" items="${pollList}">
         <tr>
+
             <td style="padding-left: 50px">${pollList.question}</td>
             <td style="padding-left: 50px">${pollList.choices}</td>
             <td style="padding-left: 50px">${pollList.numberOfChoices}</td>
