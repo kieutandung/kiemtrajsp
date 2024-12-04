@@ -37,6 +37,8 @@ public class OnlineCourse {
         this.hours = hours;
     }
 
+
+
     public int getPrice() {
         return price;
     }

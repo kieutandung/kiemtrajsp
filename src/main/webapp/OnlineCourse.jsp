@@ -34,6 +34,7 @@
     onlineCourses.add(new OnlineCourse("JSP", "cấn",10,0));
     onlineCourses.add(new OnlineCourse("JSP", "cấn",10,0));
     onlineCourses.add(new OnlineCourse("JSP", "cấn",10,0));
+    onlineCourses.add(new OnlineCourse("JSP", "cấn",10,0));
     request.setAttribute("onlineCourses", onlineCourses);
 %>
 <h1>Danh sách đơn hàng</h1>
